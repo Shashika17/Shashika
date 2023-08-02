@@ -1,7 +1,7 @@
 import React from 'react'
-
+import './dark-theme.css'
 export default function Namee() {
   return (
-    <div><h1>Shashika kavinda, Hello to real world</h1></div>
+   <div><body><h1>HI.....</h1></body></div>
   )
 }

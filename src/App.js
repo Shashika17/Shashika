@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
 import Namee from './Name';
+import './dark-theme.css'
 
 function App() {
   return (

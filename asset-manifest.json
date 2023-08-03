@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/Shashika/static/css/main.1658c198.css",
-    "main.js": "/Shashika/static/js/main.b6c4e11d.js",
+    "main.js": "/Shashika/static/js/main.dec99b79.js",
     "static/js/787.a02f2d01.chunk.js": "/Shashika/static/js/787.a02f2d01.chunk.js",
+    "static/media/manu.jpeg": "/Shashika/static/media/manu.cf60f4d317109c2a831d.jpeg",
     "index.html": "/Shashika/index.html",
     "main.1658c198.css.map": "/Shashika/static/css/main.1658c198.css.map",
-    "main.b6c4e11d.js.map": "/Shashika/static/js/main.b6c4e11d.js.map",
+    "main.dec99b79.js.map": "/Shashika/static/js/main.dec99b79.js.map",
     "787.a02f2d01.chunk.js.map": "/Shashika/static/js/787.a02f2d01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1658c198.css",
-    "static/js/main.b6c4e11d.js"
+    "static/js/main.dec99b79.js"
   ]
 }

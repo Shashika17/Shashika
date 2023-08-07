@@ -1,11 +1,22 @@
 import React from 'react'
-import './dark-theme.css'
-import MyImage from './manu.jpeg'
+import styles from'./dark-theme.css'
+import Typewriter from 'typewriter-effect';
+
 export default function Namee() {
+  
   return (
    <div><body>
-    <h1>Manushata kellek set wewaaa</h1>
-    <img src={MyImage} alt="My Image" />
+   
+  <h1> <Typewriter
+  onInit={(typewriter) => {
+    typewriter.typeString('Hello, I am Shashika kavinda')
+      .start();
+  }}
+/></h1>
+
    </body></div>
+
+
+
   )
 }

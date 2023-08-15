@@ -2,8 +2,19 @@
 // import './App.css';
 import Namee from './Name';
 import './dark-theme.css'
+import Profile from './Profile';
+import { motion, useAnimation } from "framer-motion";
 
-function App() {
+import { useInView } from "react-intersection-observer";
+
+import { useEffect } from "react";
+
+function App() 
+{
+  const exampleVariant = {
+    visible: { opacity: 0 },
+    hidden: { opacity: 2 },
+  }
   return (
     <div className="App">
       {/* <header className="App-header">
@@ -20,7 +31,15 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Namee/>
+     <div className='vertical-center'><Namee/></div>
+    
+    
+     <motion.div 
+animate={{ x: 20 }} 
+initial={{x: 1}} 
+variants={exampleVariant}
+className="box"
+> <Profile/></motion.div>
     </div>
   );
 }

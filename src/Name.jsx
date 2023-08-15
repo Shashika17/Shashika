@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from'./dark-theme.css'
+import './dark-theme.css'
 import Typewriter from 'typewriter-effect';
 
 export default function Namee() {
@@ -7,7 +7,7 @@ export default function Namee() {
   return (
    <div><body>
    
-  <h1> <Typewriter
+  <h1 className='bnn'> <Typewriter
   onInit={(typewriter) => {
     typewriter.typeString('Hello, I am Shashika kavinda')
       .start();

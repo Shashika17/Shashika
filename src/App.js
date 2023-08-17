@@ -4,7 +4,8 @@ import Namee from './Name';
 import './dark-theme.css'
 import Profile from './Profile';
 import { motion, useAnimation } from "framer-motion";
-
+import Skills from './skills';
+import './ease-in.css';
 import { useInView } from "react-intersection-observer";
 
 import { useEffect } from "react";
@@ -33,13 +34,21 @@ function App()
       </header> */}
      <div className='vertical-center'><Namee/></div>
     
-    
+    <br/>
+    <div className="bn1">
      <motion.div 
-animate={{ x: 20 }} 
-initial={{x: 1}} 
-variants={exampleVariant}
+  animate={{x: 100}}
+  transition={{ ease: "easeOut", duration: 2 }}
 className="box"
-> <Profile/></motion.div>
+> <Profile/></motion.div></div>
+<br/>
+<div className="bn1">
+     <motion.div 
+  animate={{x: 100}}
+  transition={{ ease: "easeIn", duration: 2 }}
+className="box"
+> <Skills/></motion.div>
+    </div>
     </div>
   );
 }

@@ -17,6 +17,7 @@
     "web-vitals": "^2.1.4",
     "homepage": "http://Shashika17.github.io/Shashika"
   },
+  "homepage": "http://Shashika17.github.io/Shashika",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",

@@ -6,6 +6,7 @@ import Profile from './Profile';
 import { motion, useAnimation } from "framer-motion";
 import Skills from './skills';
 import './ease-in.css';
+//import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { useInView } from "react-intersection-observer";
 
 import { useEffect } from "react";
@@ -45,7 +46,7 @@ className="box"
 <div className="bn1">
      <motion.div 
   animate={{x: 100}}
-  transition={{ ease: "easeIn", duration: 2 }}
+  transition={{ ease: "easeOut", duration: 3 }}
 className="box"
 > <Skills/></motion.div>
     </div>

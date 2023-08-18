@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/Shashika/static/css/main.b59354c3.css",
-    "main.js": "/Shashika/static/js/main.db6ee0fd.js",
+    "main.css": "/Shashika/static/css/main.def1f9d6.css",
+    "main.js": "/Shashika/static/js/main.2345e137.js",
     "static/js/787.a02f2d01.chunk.js": "/Shashika/static/js/787.a02f2d01.chunk.js",
+    "static/media/fa-solid-900.ttf": "/Shashika/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/Shashika/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/Shashika/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/Shashika/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/Shashika/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/Shashika/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/fa-v4compatibility.ttf": "/Shashika/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Shashika/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/Shashika/index.html",
-    "main.b59354c3.css.map": "/Shashika/static/css/main.b59354c3.css.map",
-    "main.db6ee0fd.js.map": "/Shashika/static/js/main.db6ee0fd.js.map",
+    "main.def1f9d6.css.map": "/Shashika/static/css/main.def1f9d6.css.map",
+    "main.2345e137.js.map": "/Shashika/static/js/main.2345e137.js.map",
     "787.a02f2d01.chunk.js.map": "/Shashika/static/js/787.a02f2d01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b59354c3.css",
-    "static/js/main.db6ee0fd.js"
+    "static/css/main.def1f9d6.css",
+    "static/js/main.2345e137.js"
   ]
 }

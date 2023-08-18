@@ -6,10 +6,12 @@ import Profile from './Profile';
 import { motion, useAnimation } from "framer-motion";
 import Skills from './skills';
 import './ease-in.css';
+import Education from './Education';
+import Foter from './fot';
 //import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
-import { useInView } from "react-intersection-observer";
+//import { useInView } from "react-intersection-observer";
 
-import { useEffect } from "react";
+//import { useEffect } from "react";
 
 function App() 
 {
@@ -50,6 +52,15 @@ className="box"
 className="box"
 > <Skills/></motion.div>
     </div>
+    <br/>
+    <div className="bn1">
+     <motion.div 
+  animate={{x: 100}}
+  transition={{ ease: "easeOut", duration: 4 }}
+className="box"
+> <Education/></motion.div>
+    </div>
+    <Foter/>
     </div>
   );
 }
